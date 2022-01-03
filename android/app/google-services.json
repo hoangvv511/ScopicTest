@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127327654843",
+    "project_id": "scopictest-ad205",
+    "storage_bucket": "scopictest-ad205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127327654843:android:7548cc9bc3ae140a97aa9e",
+        "android_client_info": {
+          "package_name": "com.scopictest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127327654843-b9g3nv08i47qo21cvi95s7luog1pvgcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEHSw-I5tZMLt37FPsQm97Jvw3ZD5puF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127327654843-b9g3nv08i47qo21cvi95s7luog1pvgcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
