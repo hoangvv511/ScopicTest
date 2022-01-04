@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "127327654843",
-    "project_id": "scopictest-ad205",
-    "storage_bucket": "scopictest-ad205.appspot.com"
+    "project_number": "645032786486",
+    "project_id": "scopic-8389d",
+    "storage_bucket": "scopic-8389d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:127327654843:android:7548cc9bc3ae140a97aa9e",
+        "mobilesdk_app_id": "1:645032786486:android:b5af53c56bce32a02bb697",
         "android_client_info": {
           "package_name": "com.scopictest"
         }
       },
       "oauth_client": [
         {
-          "client_id": "127327654843-b9g3nv08i47qo21cvi95s7luog1pvgcd.apps.googleusercontent.com",
+          "client_id": "645032786486-ji5kldj1h63bnvlcqg7jr23oolj1acj5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCEHSw-I5tZMLt37FPsQm97Jvw3ZD5puF0"
+          "current_key": "AIzaSyB7iegqMkoSD4oxcYTg-1Tbfn5IzXb77Ek"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "127327654843-b9g3nv08i47qo21cvi95s7luog1pvgcd.apps.googleusercontent.com",
+              "client_id": "645032786486-ji5kldj1h63bnvlcqg7jr23oolj1acj5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

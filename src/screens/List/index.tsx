@@ -69,6 +69,15 @@ const List = () => {
   const _handleSaveItem = useCallback(
     (text: string) => {
       setIsInputVisible(false);
+      if (!text.trim().length) {
+        toast.show({
+          title: 'Item cannot be empty',
+          status: 'error',
+          duration: 2000,
+        });
+        return;
+      }
+
       const newList = [...listData, formatTextItem(text)];
       setListData(newList);
     },

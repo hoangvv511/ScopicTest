@@ -38,7 +38,7 @@ export const ListDataProvider = ({children}: any) => {
       .collection('Users')
       .doc(user?.uid)
       .onSnapshot((documentSnapshot: any) => {
-        if (documentSnapshot.exists) {
+        if (documentSnapshot?.exists) {
           setFirebaseList(documentSnapshot?.data().notes);
         }
       });
@@ -63,7 +63,7 @@ export const ListDataProvider = ({children}: any) => {
   };
   const _getFirebaseList = () => {
     firebaseService.getListItem().then((documentSnapshot: any) => {
-      if (documentSnapshot.exists) {
+      if (documentSnapshot?.exists) {
         setFirebaseList(documentSnapshot?.data().notes);
       }
     });
